@@ -1,16 +1,36 @@
-# React + Vite
+# hiraiushiroda.github.io
+このウェブサイトは、私のプロフィール、好きなこと、学習したことをメモする場所です。
+This site is where I keep notes about myself, what I like, and things I learn.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- 自己紹介　About me
+- 好きなもの　Things I like
+- 新たに学んだこと、覚えておくことをメモするブログ　A blog for things I learn and want to remember
+- SNS/関連リンク　SNS and links
 
-Currently, two official plugins are available:
+## Tech Stack
+- React
+- ESLint
+- GitHub Pages
+- Vite 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## setup
+```bash
+npm install
+```
 
-## React Compiler.
+## Local Development
+`npm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Build
+`npm run build`
 
-## Expanding the ESLint configuration.
+## Preview
+`npm run preview`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deployment
+`main`にpushすると　GitHub Pages に自動公開
+Auto-published to GitHub Pages when I push to `main`
+
+## My Website
+[text](https://hiraiushiroda.github.io/)
