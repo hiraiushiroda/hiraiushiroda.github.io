@@ -18,7 +18,21 @@ function App() {
         <p>from:Japan🌸</p>
         <p>currently:Junior web developer</p>
         <p>Email:hiraiu.jp@gmail.com</p>
-        <p>GitHub:🐈‍⬛ https://github.com/hiraiushiroda </p>
+        <a
+          href="https://github.com/hiraiushiroda"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         GitHub
+        </a>
+         {/*リンクの追加はaタグ　href:Hypertext Referenceの略で、「このリンクが参照するURL」を指定する属性
+          target="_blank": 新しいタブで開く指定
+          rel="noopener noreferrer": セキュリティ対策
+            noopener: 開いた先ページから元ページを操作されにくくする
+            noreferrer: 遷移元情報（Referer）を送らない
+          GitHub: 画面に表示されるリンク文字列
+          実務ルールとしては、target="_blank" を使うときは rel="noopener noreferrer" をセットで付ける、で覚えてOK
+         */}
       </div>
       <div>
         <h4>Background</h4>
