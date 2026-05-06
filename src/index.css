@@ -1,3 +1,9 @@
+/*index.css はアプリ全体に効く共通スタイルです。1つの画面だけではなく、サイト全体の土台を決めます。*/
+/*index.css に置かない:特定1コンポーネント専用の細かい装飾（それは App.css へ）*/
+
+/*:root 全体で使う変数（色・フォント）を定義する場所*/
+/*--text:CSSカスタムプロパティ（変数）。例: --text: #333;
+var(--text):変数を使う書き方。*/
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -30,6 +36,8 @@
   }
 }
 
+/*media (...)  画面幅で見た目を切り替える（レスポンシブ）*/
+/*prefers-color-scheme: dark OSがダークモードならその配色を使う。*/
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
@@ -50,10 +58,12 @@
   }
 }
 
+/*body ブラウザ全体の余白などの初期設定*/
 body {
   margin: 0;
 }
 
+/*#root Reactを描画する領域の大きさ・配置*/
 #root {
   width: 1126px;
   max-width: 100%;
@@ -69,7 +79,7 @@ body {
 h1,
 h2 {
   font-family: var(--heading);
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-h);
 }
 
@@ -77,6 +87,7 @@ h1 {
   font-size: 56px;
   letter-spacing: -1.68px;
   margin: 32px 0;
+  color: #1adac7;
   @media (max-width: 1024px) {
     font-size: 36px;
     margin: 20px 0;
@@ -96,6 +107,7 @@ h4 {
   line-height: 120%;
   letter-spacing: -0.24px;
   margin: 0 0 8px;
+  color: #84d5cd;
   @media (max-width: 1024px) {
     font-size: 15px;
   }
@@ -103,6 +115,32 @@ h4 {
 
 p {
   margin: 0;
+}
+
+a {
+  display: block;
+  text-align: left;
+}
+
+a:link{
+    color: #c1628b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:visited {
+    color: rgb(222, 103, 151);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #1adac7;
+    text-decoration: none;
+}
+
+h1, h2, h4, p, li, a, ul {
+  text-align: left;
 }
 
 code,

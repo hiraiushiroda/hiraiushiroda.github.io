@@ -5,16 +5,16 @@
 
 ---
 
-## 0. まず最初に理解すること
+## 🩵0. まず最初に理解すること
 
 あなたの今のリポジトリは「Reactで1ページを表示する最小構成」です。  
 最初の目標は、以下を自力で説明できることです。
 
-1. どこから画面描画が始まるか（`src/main.jsx`）
-2. 実際のページ本体はどこか（`src/App.jsx`）
-3. 見た目の定義はどこか（`src/index.css`, `src/App.css`）
-4. 開発サーバーは何で起動するか（`npm run dev`）
-5. 公開用ビルドは何で作るか（`npm run build`）
+1. ✅どこから画面描画が始まるか（`src/main.jsx`）
+2. ✅実際のページ本体はどこか（`src/App.jsx`）
+3. ✅見た目の定義はどこか（`src/index.css`, `src/App.css`）
+4. ✅開発サーバーは何で起動するか（`npm run dev`）
+5. ✅公開用ビルドは何で作るか（`npm run build`）
 
 ---
 
@@ -33,11 +33,11 @@
 
 ## 2. Day 1〜30 超具体プラン
 
-### Day 1: 現状把握
+###　🩵 Day 1: 現状把握
 - やること:
-  - `src/main.jsx` を読む
-  - `src/App.jsx` を読む
-  - `npm run dev` で起動
+  -✅ `src/main.jsx` を読む
+  -✅ `src/App.jsx` を読む
+  -✅ `npm run dev` で起動
 - ゴール:
   - 「ReactDOMがAppを描画している」と説明できる
 
