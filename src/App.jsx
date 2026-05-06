@@ -4,18 +4,18 @@ function App() {
   return (
     <div className="container">
       {/* TODO: swap this image for your own photo */}
-      <img src="/assets/img/253464256.png" alt="Mochi lover" />
+      <img src="/assets/img/253464256.png" alt="Black Kitty" />
 
       {/* TODO: update your name */}
       <h1>About me</h1>
 
       {/* TODO: write something about yourself */}
-      <h2>Hello! I’m Hirai Ushiroda.</h2>
+      <h2>Hi! I’m Hirai Ushiroda.</h2>
       <div>
         <h4>Bio</h4>
         <p>name:Hirai Ushiroda 後田ひらい</p>
         <p>age:22</p>
-        <p>from:Japan🌸</p>
+        <p>from:Japan</p>
         <p>currently:Junior web developer</p>
         <p>Email:hiraiu.jp@gmail.com</p>
         <a

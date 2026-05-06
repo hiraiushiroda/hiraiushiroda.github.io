@@ -1,22 +1,47 @@
-.container {
+/*App.css は App.jsx の見た目専用*/
+
+.container { 
   font-family: Arial, sans-serif;
   max-width: 680px;
   margin: 40px auto;
   padding: 0 16px;
   line-height: 1.6;
 }
+/*.container = className="container" の要素に適用
+font-family = 文字の種類
+max-width: 680px = 横幅は最大680px
+margin: 40px auto = 上下40px、左右は中央寄せ
+padding: 0 16px = 内側余白（左右16px）
+line-height: 1.6 = 行間を広めにして読みやすく
+*/
 
 img {
   width: 180px;
-  border-radius: 12px;
+  border-radius: 3px;
   display: block;
   margin-bottom: 20px;
 }
+/*width = 画像幅
+border-radius = 角丸
+display: block = ブロック要素化（余白制御しやすい）
+margin-bottom = 下に20px余白 */
 
 h1 {
   margin-bottom: 8px;
 }
+/*見出しの下余白だけ調整*/
 
 ul {
   padding-left: 20px;
 }
+/*箇条書きの左インデントを20px 左にスペースを作る*/
+
+/*App.css に置くべきもの
+App画面だけの余白
+App画面だけの画像サイズ
+App画面だけのカード/リスト装飾
+
+App.css に置かないほうがいいもの
+サイト全体フォントルール（index.cssへ）
+全ページ共通の色変数（index.cssへ）
+全体レイアウト規則（index.cssへ）*/
